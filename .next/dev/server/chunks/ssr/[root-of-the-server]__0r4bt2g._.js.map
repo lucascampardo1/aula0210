@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Lucas/maromo-aula0210/aula0210/pages/index.jsx"],"sourcesContent":["import { useState } from \"react\"\r\nexport default function Home() {\r\n    function Contador() {\r\n        const [contador, setContador] = useState(1)\r\n\r\n        function adicionar() {\r\n            setContador(contador + 1)\r\n        }\r\n\r\n        return (\r\n            <div>\r\n                <button onClick={adicionar}>Adicionar</button>\r\n                <span>{contador}</span>\r\n            </div>\r\n        )\r\n    }\r\n    return (\r\n        <div>\r\n            <h1>\r\n                Home\r\n            </h1>\r\n            <Contador />\r\n        </div>\r\n    )\r\n}"],"names":["Home","Contador","contador","setContador","adicionar","onClick"],"mappings":";;;;;AAAA;;;AACe,SAASA;IACpB,SAASC;QACL,MAAM,CAACC,UAAUC,YAAY,GAAG,IAAA,+GAAQ,EAAC;QAEzC,SAASC;YACLD,YAAYD,WAAW;QAC3B;QAEA,qBACI,qKAAC;;8BACG,qKAAC;oBAAOG,SAASD;8BAAW;;;;;;8BAC5B,qKAAC;8BAAMF;;;;;;;;;;;;IAGnB;IACA,qBACI,qKAAC;;0BACG,qKAAC;0BAAG;;;;;;0BAGJ,qKAACD;;;;;;;;;;;AAGb"}}]
-}
